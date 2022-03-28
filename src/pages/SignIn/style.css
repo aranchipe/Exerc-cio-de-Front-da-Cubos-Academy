@@ -1,0 +1,85 @@
+
+
+.container-sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #2E2E36;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+button {
+    all: unset;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 14px;
+    background: #DA0175;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 300px;
+    height: 48px;
+    padding: 18px 133px;
+    border-radius: 5px;
+}
+
+form {
+    width: 494px;
+    height: 475px;
+    background: #44444D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 96px;
+}
+
+.logo {
+    margin-bottom: 60px;
+}
+
+input {
+    all: unset;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 48px;
+    background: #2E2E36;
+    margin-bottom: 16px;
+    padding: 18px 16px;
+    color: white;
+}
+
+span {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.frase {
+    color: white;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: start;
+    width: 300px;
+
+}
+
+input::placeholder {
+    color: white;
+   font-size: 12px;
+    line-height: 14px;
+}

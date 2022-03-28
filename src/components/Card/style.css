@@ -1,0 +1,32 @@
+.container-card {
+    width: 200px;
+    height: 236px;
+    background: #DA0175;
+    border-radius: 8px; 
+    padding: 24px 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+#foto {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 4px;
+    margin-bottom: 16px;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: white;
+}
+
+.container-card:hover {
+    transform: scale(1.05);
+}

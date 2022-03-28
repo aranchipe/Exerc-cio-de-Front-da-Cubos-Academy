@@ -1,0 +1,38 @@
+.container-teacher {
+    background: #2E2E36;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 130px;
+     position: absolute; 
+    top: 32px;
+}
+
+.botao {
+    width: 100%;
+    margin-right: 546px;
+}
+
+.cubos {
+    margin-right: 540px;
+} 
+
+.voltar {
+    cursor: pointer;
+    position: absolute;
+    top: 48px;
+    left: 48px;
+}
+

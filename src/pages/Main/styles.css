@@ -1,0 +1,23 @@
+.container-main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2E2E36;
+    padding: 32px 172px;
+}
+
+#logo {
+    width: 155px;
+    height: 68px;
+    margin-bottom: 72px;
+}
+
+.cards {
+    width: 1096px;
+    height: 424px;
+    flex-wrap: wrap;
+    gap: 24px;
+    display: flex;
+}
